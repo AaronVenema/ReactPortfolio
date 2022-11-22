@@ -4,7 +4,7 @@ import aaronsInfo from "../../aaronsInfo"
 
 function AboutMeCard() {
   return (
-    <Card className="m-4 bg-dark" style={{ justify: "center", width: "90%" }}>
+    <Card className="m-4 bg-dark" style={{ justify: "center", vw: "90%" }}>
       <Card.Body className="bg-dark text-white text-center">
         <Card.Title>About Me!</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>

@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap"
 function ProjectCards({ item }) {
 
   return (
-    <Card className="m-4 bg-dark" style={{  width: "60%" }}>
+    <Card className="m-4 bg-dark" style={{  vw: "60%" }}>
       <Card.Img variant="top" src={require(`../../../public/images/${item.projectImg}`)} alt="card-img" />
       <Card.Body className=" text-white text-center">
         <Card.Title className="text-center m-4">{item.project}</Card.Title>
