@@ -1,20 +1,21 @@
 import React from 'react'
 import { Container, Row } from "react-bootstrap"
-// import { Page, Document } from 'react-pdf'
+import DocViewer, { DocViewerRenderers } from "@cyntler/react-doc-viewer";
 import Header from "../header"
 import Footer from "../footer"
 
+
 const Resume = () => {
+  const docs = [ { uri: require("./resume.pdf") } ];
+
   return (
     <>
       <Header />
       <Container id="resume" className='text-white' fluid>
         <h1 className="fw-bold text-center">Resume</h1>
-        <Container fluid className="d-grid" >
+        <Container fluid  style={{  justify: "center", width: "80%" }} >
           <Row className="justify-content-center m-4">
-            {/* <Document className="content-center" file="https://drive.google.com/file/d/1bTklatInXU9mbWxZtdOWFVSzE2leoOP6/view?usp=share_link">
-              <Page pageNumber={1} /> */}
-            {/* </Document> */}
+            <DocViewer pluginRenderers={DocViewerRenderers} documents={docs} />
           </Row>
         </Container>
       </Container>

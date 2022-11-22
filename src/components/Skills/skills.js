@@ -18,7 +18,7 @@ function Skills() {
           <h1 className="fw-bold text-center">Languages</h1>
           <Row className="justify-content-center m-4" style={{ content: "center" }}>
             {aaronsInfo.languages && aaronsInfo.languages.map((item) =>
-            (<LanguageCards  item={item} key={item.skill} />))}
+            (<LanguageCards item={item} key={item.skill} />))}
           </Row>
           <h1 className="fw-bold text-center">Frameworks</h1>
           <Row className="justify-content-center m-4">
