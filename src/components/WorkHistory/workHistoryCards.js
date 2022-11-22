@@ -8,8 +8,8 @@ function WorkHistoryCards({ item }) {
       <Card.Body className="bg-dark text-center text-white ">
         <Card.Title style={{ textAlign: "center" }}>{item.title}</Card.Title>
         <Card.Text>
-          <div className="employer">{item.employer}</div>
-          <div className="employementDate">{item.employementDate}</div>
+          {item.employer}
+          {item.employementDate}
         </Card.Text>
       </Card.Body>
     </Card>

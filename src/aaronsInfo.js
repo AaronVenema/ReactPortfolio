@@ -135,14 +135,14 @@ let aaronsInfo = {
       "id": "1",
       "project": "Progressive Web Application",
       "projectUrl": "https://progressivewebapplication.herokuapp.com/",
-      "projectImg": "JATEScreenshot.png",
+      "projectImg": "jate.png",
       "description": "Another way to code!"
     },
     {
       "id": "2",
       "project": "Team Profile Generator",
       "projectUrl": "https://github.com/AaronVenema/teamProfileGenerator",
-      "projectImg": "teamProfileGenerator.jpg",
+      "projectImg": "team.jpg",
       "description": "Make a team profile!"
     },
     {
@@ -156,28 +156,28 @@ let aaronsInfo = {
       "id": "4",
       "project": "Employee Tracker",
       "projectUrl": "https://github.com/AaronVenema/employeeTracker",
-      "projectImg": "employeeTracker.gif",
+      "projectImg": "employeetracker.gif",
       "description": "Database for tracking employees"
     },
     {
       "id": "5",
       "project": "Note Taker",
       "projectUrl": "https://github.com/AaronVenema/noteTaker",
-      "projectImg": "NoteTaker.jpg",
+      "projectImg": "notetaker.jpg",
       "description": "Simple note taker application"
     },
     {
       "id": "6",
       "project": "Weather Dashboard",
       "projectUrl": "https://github.com/AaronVenema/weatherDashboard",
-      "projectImg": "weatherDashboard.png",
+      "projectImg": "weather.png",
       "description": "Find out the weather!"
     },
     {
       "id": "7",
       "project": "Work Day Scheduler",
       "projectUrl": "https://aaronvenema.github.io/Scheduler/",
-      "projectImg": "workDayScheduler.png",
+      "projectImg": "work.png",
       "description": "Schedule your workday!"
     },
   ]
