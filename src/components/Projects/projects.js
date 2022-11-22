@@ -14,7 +14,8 @@ function Projects() {
       <h1 className="fw-bold text-center">Projects</h1>
         <Container fluid className="d-grid" >
           <Row className="justify-content-center m-4">
-          {aaronsInfo.projects && aaronsInfo.projects.map((item) => (<ProjectCard item={item} key={item.id} />))}
+          {aaronsInfo.projects && aaronsInfo.projects.map((item) => (<ProjectCard item={item} key={item.project} />
+          ))}
           </Row>
         </Container>
       </Container>

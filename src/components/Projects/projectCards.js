@@ -5,8 +5,8 @@ function ProjectCards({ item }) {
 
   return (
     <Card className="m-4 bg-dark" style={{  width: "60%" }}>
-      <Card.Img variant="top" src={`images/${item.projectImg}`} alt="card-img" />
-      <Card.Body className=" bg-dark text-white text-center">
+      <Card.Img variant="top" src={require(`../../../public/images/${item.projectImg}`)} alt="card-img" />
+      <Card.Body className=" text-white text-center">
         <Card.Title className="text-center m-4">{item.project}</Card.Title>
         <Card.Text style={{ textAlign: "center" }}>
           {item.description}

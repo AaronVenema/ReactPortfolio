@@ -149,21 +149,21 @@ let aaronsInfo = {
       "id": "3",
       "project": "E-Commerce BackEnd",
       "projectUrl": "https://github.com/AaronVenema/e-commercebackend",
-      "projectImg": "ecommercebackend.gif",
+      "projectImg": "eb.gif",
       "description": "MySQL inventory management"
     },
     {
       "id": "4",
       "project": "Employee Tracker",
       "projectUrl": "https://github.com/AaronVenema/employeeTracker",
-      "projectImg": "employeetracker.gif",
+      "projectImg": "et.gif",
       "description": "Database for tracking employees"
     },
     {
       "id": "5",
       "project": "Note Taker",
       "projectUrl": "https://github.com/AaronVenema/noteTaker",
-      "projectImg": "notetaker.jpg",
+      "projectImg": "note.jpg",
       "description": "Simple note taker application"
     },
     {
