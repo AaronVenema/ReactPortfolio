@@ -1,4 +1,4 @@
-import { FaLinkedin, FaReact } from "react-icons/fa"
+import { FaLinkedin, FaReact, FaGithub } from "react-icons/fa"
 import { DiJavascript1, DiReact, DiGithubBadge, DiHtml5, DiBootstrap, DiNodejsSmall, DiMongodb, DiCss3, DiMysql, DiHeroku } from "react-icons/di";
 import { MdEmail, MdDirectionsRailwayFilled } from "react-icons/md";
 let aaronsInfo = {
@@ -11,17 +11,17 @@ let aaronsInfo = {
     {
       "platformName": "GitHub",
       "url": "https://github.com/AaronVenema",
-      "icon": "FaGithub"
+      "icon": <FaGithub className="h-100 w-100" />
     },
     {
       "platformName": "Linkedin",
       "url": "https://www.linkedin.com/in/aaron-venema-109871158/",
-      "icon": "fa fa-linkedin"
+      "icon": <FaLinkedin className="h-100 w-100" />
     },
     {
       "platformName": "Email",
       "url": "aaron.m.venema@gmail.com",
-      "icon": "fa fa-email"
+      "icon": <MdEmail className="h-100 w-100" />
     }
   ],
   "address": "Venus, Tx 76084",
@@ -43,7 +43,7 @@ let aaronsInfo = {
   "languages": [
     {
       "skill": "React-JS",
-      "skillIcon": <FaReact className="h-100 w-100" />
+      "skillIcon": <DiReact className="h-100 w-100" />
     },
     {
       "skill": "JavaScript",
