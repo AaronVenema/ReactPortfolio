@@ -20,7 +20,7 @@ let aaronsInfo = {
     },
     {
       "platformName": "Email",
-      "url": "aaron.m.venema@gmail.com",
+      "url": "mailto:aaron.m.venema@gmail.com",
       "icon": <MdEmail className="h-100 w-100" />
     }
   ],
