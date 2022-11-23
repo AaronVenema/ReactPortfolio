@@ -11,7 +11,7 @@
 * [Acceptance Criteria](#Acceptance-Criteria)
 
 ### Demo
-![gif](https://github.com/AaronVenema/progressiveWebApplication/blob/main/demo/screenshot.png)
+![gif](https://github.com/AaronVenema/ReactPortfolio/blob/main/public/images/portfolioDemo.gif)
 
 ### Description
 React portfolio that is dynamically generated based on user input file "aaronsInfo.js", thus when new languages, skills or projects are learned/made the user only has to update one file. 
