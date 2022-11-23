@@ -4,7 +4,7 @@ import { Card} from "react-bootstrap"
 function EducationCards({ item }) {
 
   return (
-    <Card className="m-4 bg-dark" style={{ vw: "40%" }}>
+    <Card className="m-4 bg-dark border-0" style={{ vw: "40%" }}>
       <Card.Body className="bg-dark text-white text-center ">
         <Card.Title>{item.degree}</Card.Title>
         <Card.Text style={{ textAlign: "center" }}>

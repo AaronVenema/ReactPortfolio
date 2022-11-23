@@ -16,7 +16,7 @@ function Skills() {
       <Container id="skills" >
         <Container fluid className="d-grid text-white" style={{ justify: "center" }} >
           <h1 className="fw-bold text-center">Languages</h1>
-          <Row className="justify-content-center m-4" style={{ content: "center" }}>
+          <Row className="justify-content-center m-4 bg-dark" style={{ content: "center" }}>
             {aaronsInfo.languages && aaronsInfo.languages.map((item) =>
             (<LanguageCards item={item} key={item.skill} />))}
           </Row>
